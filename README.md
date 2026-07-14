@@ -68,11 +68,13 @@
 
 ---
 
-### 🌿 Leaf Disease Annotation Web App
+### 🌿 Annotation-ML-Leaf
 
 🔗 https://github.com/Primarizki21/Annotation-ML-Leaf
-🔬 Research-based project inspired by scientific paper (leaf patch splitting).
-📱 Goal: detect healthy vs diseased leaf areas (currently in progress 🚧)
+End-to-end plant disease detection on PlantVillage (1,048,879 patches · 28 classes).
+* 🧑‍🏫 5-annotator consensus + Fleiss-κ review
+* 🔄 4-round active learning (verify-pseudo + HITL on uncertain clusters)
+* 🏗️ 5-architecture training (MobileNetV3-S, EfficientNet-B0, ShuffleNetV2, SqueezeNet, SmallInception) with ONNX export
 
 ---
 

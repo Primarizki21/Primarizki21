@@ -1,17 +1,18 @@
-<h1 align="center">Hi 👋, I'm Primarizki Ahmad Hariyono</h1>
-<h3 align="center">🎓 Data Science Student | 🤖 ML Enthusiast | 🚀 Future AI Builder</h3>
+# Hi 👋, I'm Primarizki Ahmad Hariyono
+
+### 🎓 Data Science Student @ Universitas Airlangga | 🧭 PM @ IRIS Research | 🤖 Applied ML & Explainable AI
 
 ---
 
 ## 🚀 About Me
 
-🎓 3rd Year Data Science Student @ Universitas Airlangga
+🎓 Data Science Technology student, Faculty of Advanced Technology and Multidiscipline Universitas Airlangga
 💡 Passionate about turning data into meaningful insights and real-world applications
 
-* 🤖 Exploring Machine Learning & AI
-* 👁️ Interested in Computer Vision
-* 📈 Learning Time Series Analysis
-* 💬 Building NLP-based systems (chatbot, etc.)
+- 🧭 Currently leading **FTMM COMPASS** as Project Manager — a 6-month academic research project building an AI-powered planning & advisory platform, with a 6-person team
+- 🩺 Applied ML in healthcare: medical imaging classification (blood cell, prostate cancer)
+- 📈 Explainable AI — SHAP, Grad-CAM — and time series forecasting
+- 🌿 Active learning pipelines for large-scale image annotation
 
 ---
 
@@ -19,91 +20,101 @@
 
 ### 💻 Languages
 
-<p>
-  <img src="https://skillicons.dev/icons?i=python,r" />
-  <img src="https://skillicons.dev/icons?i=mysql" />
-</p>
+![Skills](https://skillicons.dev/icons?i=python,r)
 
-### 📚 Libraries & Frameworks
+### 📚 ML & Data
 
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
-  <img src="https://skillicons.dev/icons?i=opencv" />
-</p>
+![Skills](https://skillicons.dev/icons?i=pytorch,sklearn,jupyter,opencv)
 
-* Pandas, NumPy
-* Scikit-learn
-* NLTK & NLP tools
+- Pandas, NumPy, SHAP, LangChain
 
----
+### 🗄️ Backend & Databases
+
+![Skills](https://skillicons.dev/icons?i=fastapi,postgres,mysql,sqlite,laravel)
 
 ### ⚙️ Tools
 
-<p>
-  <img src="https://skillicons.dev/icons?i=git,docker,vscode" />
-</p>
+![Skills](https://skillicons.dev/icons?i=git,github,docker,vscode)
 
 ---
 
 ## 🚀 Featured Projects
 
-### 💬 NLP Chatbot
+### 🧭 FTMM COMPASS
 
-🔗 https://github.com/Primarizki21/Final-Project-NLP-Chatbot
-🧠 Chatbot project for NLP coursework — focuses on understanding user queries and generating responses.
+🔗 <https://github.com/Primarizki21/FTMM-COMPASS>
+AI-powered comprehensive planning & advisory platform for FTMM students — 6-month academic research project, Project Manager leading a 6-person team (frontend, backend, database, AI/ML, paper writing).
 
----
-
-### 🗄️ Data Warehouse Complaint System
-
-🔗 https://github.com/Primarizki21/Project_Basis_Data
-📊 Web-based complaint system with database integration (data warehouse concept for FTMM Airlangga University).
-
----
-
-### 🤖 AutoResearch Classification (PoC)
-
-🔗 https://github.com/Primarizki21/autoresearch_classification
-⚡ ML classification with experiment memory system (`experiment_memory.md`) to simulate an agent that remembers experiments.
+- 🗄️ PostgreSQL schema with multi-prodi curriculum versioning, prerequisite modeling & retake history tracking
+- 🤖 CAG-based AI degree planner + LangChain/Gemini chatbot agent
 
 ---
 
 ### 🌿 Annotation-ML-Leaf
 
-🔗 https://github.com/Primarizki21/Annotation-ML-Leaf
+🔗 <https://github.com/Primarizki21/Annotation-ML-Leaf>
 End-to-end plant disease detection on PlantVillage (1,048,879 patches · 28 classes).
-* 🧑‍🏫 5-annotator consensus + Fleiss-κ review
-* 🔄 4-round active learning (verify-pseudo + HITL on uncertain clusters)
-* 🏗️ 5-architecture training (MobileNetV3-S, EfficientNet-B0, ShuffleNetV2, SqueezeNet, SmallInception) with ONNX export
+
+- 🧑‍🏫 5-annotator consensus + Fleiss-κ review
+- 🔄 4-round active learning (verify-pseudo + HITL on uncertain clusters)
+- 🏗️ 5-architecture training (MobileNetV3-S, EfficientNet-B0, ShuffleNetV2, SqueezeNet, SmallInception) with ONNX export
+
+---
+
+### 🩸 Blood Cell Recognition
+
+🔗 <https://github.com/Primarizki21/BloodCellRecognition>
+ConvNeXt-Tiny blood cell classifier on the PBC dataset, with a full technical audit: overfitting diagnosis, Grad-CAM validation, and research gap analysis (calibration/uncertainty quantification, immature granulocyte subtyping, cross-dataset generalization).
+
+---
+
+### 🧬 ProstateXML
+
+🔗 <https://github.com/Primarizki21/ProstateXML>
+3D ResNet-50 with MedicalNet pretraining for prostate cancer classification — windowing method analysis (Percentile vs. Clinical) and k-fold cross-validation design.
+
+---
+
+### 💰 LSTM Gold Price Prediction
+
+🔗 <https://github.com/Primarizki21/LSTM-Indonesian-Gold-Prediction>
+Multivariate LSTM + SHAP research on domestic gold price prediction from Indonesian macroeconomic variables (Gold Futures, Crude Oil, USD/IDR, IHSG, inflation, BI Rate) — separating global SHAP from temporal-local SHAP via KernelSHAP.
+
+---
+
+### 📊 AKB Dashboard
+
+🔗 <https://github.com/Primarizki21/AKB-Dashboard>
+Loan default prediction dashboard — FastAPI + HTMX + scikit-learn + ApexCharts on ~255K loan records.
+
+---
+
+### 🌱 PlantCare UI
+
+🔗 <https://github.com/Primarizki21/PlantCareUI>
+Deployed companion UI for the plant disease detection pipeline, live on Vercel.
 
 ---
 
 ## 📈 Current Focus
 
-* 🚀 Building end-to-end ML applications
-* 🧠 Improving model performance & experimentation
-* 🤖 Exploring AI agents & automation
+- 🧭 Leading FTMM COMPASS from architecture to deployment
+- 🧠 Explainable AI (SHAP, Grad-CAM) for healthcare & finance applications
+- 🤖 Multi-agent orchestration & AI research tooling
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Primarizki21&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Primarizki21&theme=tokyonight" />
-</p>
+![](https://github-readme-stats.vercel.app/api?username=Primarizki21&show_icons=true&theme=tokyonight)
+![](https://github-readme-streak-stats.herokuapp.com/?user=Primarizki21&theme=tokyonight)
 
 ---
 
 ## 🌐 Connect With Me
 
-<p>
-  <a href="https://www.linkedin.com/in/primarizkihariyono/">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
-  </a>
-</p>
-
-📧 [primarizkiahmad.h@gmail.com](mailto:primarizkiahmad.h@gmail.com)
+[![](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/primarizkihariyono/)
+📧 <primarizkiahmad.h@gmail.com>
 
 ---
 
